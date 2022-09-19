@@ -8,9 +8,7 @@ export default function Aside() {
         <aside>
             <article
                 role={"contentinfo"}
-                aria-label={
-                    "Article about Farah's Contacts, Skills, and Education"
-                }
+                aria-label={"Farah's contacts, skills, and education"}
             >
                 <Contacts />
                 <Skills />

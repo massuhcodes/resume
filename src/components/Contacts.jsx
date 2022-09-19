@@ -11,19 +11,35 @@ export default function Contacts() {
             <div>
                 <a href="#">
                     <span>massuhcodes@gmail.com</span>
-                    <img className="icon" src={mail} />
+                    <img
+                        className="icon"
+                        src={mail}
+                        alt={"Farah Massuh's e-mail"}
+                    />
                 </a>
                 <a href="#">
                     <span>linkedin/farahmassuh</span>
-                    <img className="icon" src={linkedin} />
+                    <img
+                        className="icon"
+                        src={linkedin}
+                        alt={"Farah Massuh's LinkedIn"}
+                    />
                 </a>
                 <a href="#">
                     <span>github/massuhcodes</span>
-                    <img className="icon" src={github} />
+                    <img
+                        className="icon"
+                        src={github}
+                        alt={"Farah Massuh's GitHub"}
+                    />
                 </a>
                 <a href="#">
                     <span>massuhcodes.com</span>
-                    <img className="icon" src={website} />
+                    <img
+                        className="icon"
+                        src={website}
+                        alt={"Farah Massuh's website"}
+                    />
                 </a>
             </div>
         </section>
