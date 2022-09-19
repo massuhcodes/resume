@@ -5,10 +5,10 @@ export default function Header() {
     return (
         <header>
             <img src={farahmassuh} />
-            <div>
+            <hgroup>
                 <h1>Farah Massuh</h1>
                 <h2>Frontend Developer</h2>
-            </div>
+            </hgroup>
         </header>
     );
 }
