@@ -5,12 +5,14 @@ import download from "../assets/download.png";
 export default function Header() {
     return (
         <header>
-            <img src={farahmassuh} alt={"Farah Massuh's portrait"} />
-            <hgroup>
-                <h1>Farah Massuh</h1>
-                <h2>Frontend Developer</h2>
-            </hgroup>
-            <img src={download} alt={"download"} />
+            <img
+                src={farahmassuh}
+                className={"portrait"}
+                alt={"Farah Massuh's portrait"}
+            />
+            <h1>Farah Massuh</h1>
+            <h2>FRONTEND DEVELOPER</h2>
+            <img src={download} className={"download"} alt={"download"} />
         </header>
     );
 }

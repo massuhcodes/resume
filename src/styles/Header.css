@@ -1,0 +1,46 @@
+header {
+    background-color: #5c79a4;
+    display: grid;
+    grid-template-areas:
+        "portrait . ."
+        "portrait name ."
+        "portrait title download"
+        "portrait . .";
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header .portrait {
+    width: 175px;
+    border: solid 2px #a9a9a9;
+    border-radius: 10px;
+    align-self: center;
+    justify-self: flex-end;
+    box-shadow: 0 2px 15px 5px #00000040;
+    grid-area: portrait;
+}
+
+header h1 {
+    color: #fafcff;
+    font-weight: 400;
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    grid-area: name;
+}
+
+header h2 {
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    grid-area: title;
+}
+
+header .download {
+    width: 25px;
+    grid-area: download;
+    cursor: pointer;
+}
