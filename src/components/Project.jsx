@@ -2,15 +2,21 @@ import "../styles/Project.css";
 
 export default function Project() {
     return (
-        <section role={"contentinfo"} aria-label={"Project"}>
-            <h2>Project</h2>
+        <section
+            className={"section-project"}
+            role={"contentinfo"}
+            aria-label={"Project"}
+        >
+            <h2>PROJECT</h2>
             <div>
-                <h3>Awedbeen.com</h3>
+                <h3>AWEDBEEN.COM</h3>
                 <time>Aug '22</time>
             </div>
             <span>
-                A React.js website where users create posts of places they
-                visited
+                <i>
+                    A React.js website where users create posts of places they
+                    visited
+                </i>
             </span>
             <ul>
                 <li>Made user-friendly by implementing CRUD capabilities</li>

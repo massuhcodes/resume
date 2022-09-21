@@ -1,0 +1,36 @@
+.section-work {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.section-work h2 {
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 1.375rem;
+}
+
+.section-work div {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.section-work div h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.section-work div time {
+    font-weight: 200;
+}
+
+.section-work i {
+    color: #304d78;
+}
+
+.section-work ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}

@@ -1,0 +1,10 @@
+aside article {
+    height: 100%;
+    display: grid;
+    justify-content: space-between;
+}
+
+aside {
+    /* padding: 15px 24px; */
+    background-color: #f5faffa3;
+}

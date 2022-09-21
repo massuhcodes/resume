@@ -6,40 +6,28 @@ import website from "../assets/website.png";
 
 export default function Contacts() {
     return (
-        <section role={"contentinfo"} aria-label="Contacts">
-            <h2>Contacts</h2>
+        <section
+            role={"contentinfo"}
+            aria-label="Contacts"
+            className={"section-contacts"}
+        >
+            <h2>CONTACTS</h2>
             <div>
                 <a href="#">
                     <span>massuhcodes@gmail.com</span>
-                    <img
-                        className="icon"
-                        src={mail}
-                        alt={"Farah Massuh's e-mail"}
-                    />
+                    <img src={mail} alt={"Farah Massuh's e-mail"} />
                 </a>
                 <a href="#">
                     <span>linkedin/farahmassuh</span>
-                    <img
-                        className="icon"
-                        src={linkedin}
-                        alt={"Farah Massuh's LinkedIn"}
-                    />
+                    <img src={linkedin} alt={"Farah Massuh's LinkedIn"} />
                 </a>
                 <a href="#">
                     <span>github/massuhcodes</span>
-                    <img
-                        className="icon"
-                        src={github}
-                        alt={"Farah Massuh's GitHub"}
-                    />
+                    <img src={github} alt={"Farah Massuh's GitHub"} />
                 </a>
                 <a href="#">
                     <span>massuhcodes.com</span>
-                    <img
-                        className="icon"
-                        src={website}
-                        alt={"Farah Massuh's website"}
-                    />
+                    <img src={website} alt={"Farah Massuh's website"} />
                 </a>
             </div>
         </section>

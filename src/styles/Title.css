@@ -1,0 +1,35 @@
+.section-title {
+    background-color: #5c79a4;
+    padding: 15px 24px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-title h1 {
+    color: #fafcff;
+    font-weight: 400;
+    font-size: 3.75rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section-title div h2 {
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 1.875rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section-title div img {
+    width: 25px;
+    cursor: pointer;
+} 
+
+.section-title div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

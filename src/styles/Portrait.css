@@ -1,0 +1,14 @@
+.section-portrait {
+    background-color: #5c79a4;
+    padding: 15px 24px;
+    height: 200px;
+    display: flex;
+    justify-content: end;
+}
+
+.section-portrait img {
+    height: 100%;
+    border: solid 2px #a9a9a9;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px 5px #00000040;
+}

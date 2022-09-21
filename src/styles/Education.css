@@ -1,0 +1,24 @@
+.section-education {
+    text-align: end;
+    margin-top: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.section-education h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.awards {
+    display: grid;
+    row-gap: 10px;
+}
+
+.awards section {
+    display: grid;
+}
+
+.section-education .awards span time {
+    font-weight: 200;
+}

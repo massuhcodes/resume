@@ -1,0 +1,21 @@
+.section-career {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.section-career h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.375rem;
+}
+
+.section-career p {
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.section-career p b {
+    color: #304d78;
+    font-weight: 800;
+}
